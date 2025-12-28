@@ -45,11 +45,6 @@
                     <td><span class="badge bg-secondary">{{ cliente.ci }}</span></td>
                     <td>{{ cliente.celular|default:"---" }}</td>
                     <td class="text-end">
-                        <a href="{% url 'detalle_cliente' cliente.id %}" class="btn btn-outline-info btn-sm">
-                            Ver Detalles
-                        </a>
-                    </td>
-                    <td class="text-end">
                         <a href="{% url 'detalle_cliente' cliente.id %}" class="btn btn-outline-primary btn-sm me-1" title="Ver Ficha">
                             <span class="material-icons" style="font-size: 18px; vertical-align: middle;">visibility</span>
                         </a>

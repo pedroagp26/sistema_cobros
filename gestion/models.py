@@ -17,6 +17,7 @@ class Servicio(models.Model):
         ('GAS', 'Gas Domiciliario'),
         ('ASEO', 'Tasa de Aseo'),
         ('CUENTA', 'Cuenta Bancaria'),
+        ('Yape', 'Yape'),
     ]
 
     # La relación: un cliente tiene muchos servicios
