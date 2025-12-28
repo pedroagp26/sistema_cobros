@@ -76,12 +76,8 @@ WSGI_APPLICATION = 'sistema_clientes.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'db_pagos',          # El nombre de la DB que creaste en Postgres
-        'USER': 'bcp',               # Tu usuario
-        'PASSWORD': 'bcp123',        # Tu contraseña
-        'HOST': '127.0.0.1',         # O 'localhost'
-        'PORT': '5432',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
 
